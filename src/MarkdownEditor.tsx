@@ -1,7 +1,7 @@
 import { useEffect, useRef } from "react";
 import { StacksEditor } from "@stackoverflow/stacks-editor";
 import "@stackoverflow/stacks";
-import "@stackoverflow/stacks/dist/css/stacks.css";
+import "@stackoverflow/stacks/dist/css/stacks.css"; // This line creates the error!
 
 export default function MarkdownEditor() {
   const editorContainerRef = useRef<HTMLDivElement>(null);
